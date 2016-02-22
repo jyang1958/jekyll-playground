@@ -1,2 +1,4 @@
 ---
+layout: raw
+---
 {{ site | jsonify }}
