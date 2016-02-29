@@ -17,6 +17,6 @@ layout: ontouchstart/2016/02/29/test
   console.log(data);
 </script>
 
-[URL](https://bigdata-mindstorms.github.io/jekyll-playground/ontouchstart/2016/02/29/test.html) |
-[github](https://github.com/bigdata-mindstorms/jekyll-playground/tree/gh-pages/ontouchstart/2016/02/29/test.md)
+[URL](https://bigdata-mindstorms.github.io/jekyll-playground/public/ontouchstart/2016/02/29/test.html) |
+[github](https://github.com/bigdata-mindstorms/jekyll-playground/tree/gh-pages/public/ontouchstart/2016/02/29/test.md)
 
