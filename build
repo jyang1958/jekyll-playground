@@ -1,0 +1,3 @@
+#!/bin/sh
+# To build a local _site (not on github)
+docker run --rm -v $(pwd):/home ontouchstart/gh-pages jekyll build
