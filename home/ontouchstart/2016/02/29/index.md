@@ -8,5 +8,7 @@ Jekyll 是一个将纯文本转化为静态网站和博客的工具。GitHub 网
 - [Jekyll 英文参考资料](http://jekyllrb.com/)
 - [Jekyll 中文参考资料](http://jekyll.bootcss.com/)
 
-[URL](https://bigdata-mindstorms.github.io/jekyll-playground/{{ page.url }}) |
-[View on GitHub](https://github.com/bigdata-mindstorms/jekyll-playground/tree/gh-pages/{{ page.dir }}) 
+--
+
+[URL](https://bigdata-mindstorms.github.io/jekyll-playground/home/ontouchstart/2016/02/29/index.html) |
+[View on GitHub](https://github.com/bigdata-mindstorms/jekyll-playground/tree/gh-pages/home/ontouchstart/2016/02/29/index.md) 
