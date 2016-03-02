@@ -46,4 +46,4 @@ http://bigdata-mindstorms.github.io/jekyll-playground/public/ontouchstart/html.h
 ```
 
 完成后请把你的`README.md`网址按照例子贴到 
-[作业区: markdown转换成html](https://github.com/bigdata-mindstorms/jekyll-playground/issues/4)。
+[02: markdown转换成html 作业区](https://github.com/bigdata-mindstorms/jekyll-playground/issues/4)。
