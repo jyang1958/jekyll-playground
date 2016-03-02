@@ -40,9 +40,9 @@ http://bigdata-mindstorms.github.io/jekyll-playground/public/ontouchstart/
 
 https://bigdata-mindstorms.github.io/jekyll-playground/public/ontouchstart/
 
-http://bigdata-mindstorms.github.io/jekyll-playground/public/ontouchstart/markdown.md
+https://bigdata-mindstorms.github.io/jekyll-playground/public/ontouchstart/markdown.md
 
-http://bigdata-mindstorms.github.io/jekyll-playground/public/ontouchstart/html.html
+https://bigdata-mindstorms.github.io/jekyll-playground/public/ontouchstart/html.html
 ```
 
 完成后请把你的`README.md`网址按照例子贴到 
