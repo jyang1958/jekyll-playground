@@ -16,4 +16,5 @@
 http://bigdata-mindstorms.github.io/jekyll-playground/public/ontouchstart/
 ```
 
-完成后把你的`README.md`网址按照例子贴到[issue里](https://github.com/bigdata-mindstorms/jekyll-playground/issues/2)。
+完成后把你的`README.md`网址按照例子贴到 
+[01: 你好世界 作业区](https://github.com/bigdata-mindstorms/jekyll-playground/issues/3)。
