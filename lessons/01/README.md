@@ -14,6 +14,8 @@
 
 ```markdown
 http://bigdata-mindstorms.github.io/jekyll-playground/public/ontouchstart/
+
+https://bigdata-mindstorms.github.io/jekyll-playground/public/ontouchstart/
 ```
 
 完成后把你的`README.md`网址按照例子贴到 
