@@ -9,3 +9,5 @@ https://bigdata-mindstorms.github.io/jekyll-playground/public/ontouchstart/html.
 https://bigdata-mindstorms.github.io/jekyll-playground/public/ontouchstart/page_data.html
 
 https://bigdata-mindstorms.github.io/jekyll-playground/public/ontouchstart/page_data.txt
+
+https://bigdata-mindstorms.github.io/jekyll-playground/public/ontouchstart/page_data.json
