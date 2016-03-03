@@ -36,6 +36,7 @@
 生成的网址和前面的规律一样：
 
 https://bigdata-mindstorms.github.io/jekyll-playground/public/ontouchstart/page_data.html
+(有兴趣的同学可以在浏览器里看看这个文件的源代码，和下面的文件是不是不一样？)
 
 https://bigdata-mindstorms.github.io/jekyll-playground/public/ontouchstart/page_data.txt
 
