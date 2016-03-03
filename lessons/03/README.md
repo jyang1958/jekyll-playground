@@ -60,4 +60,4 @@ https://bigdata-mindstorms.github.io/jekyll-playground/public/ontouchstart/page_
 https://github.com/bigdata-mindstorms/jekyll-playground/blob/gh-pages/public/ontouchstart/README.md
 
 
-[03 练习区](https://github.com/bigdata-mindstorms/jekyll-playground/issues/5)。
+[03 练习区](https://github.com/bigdata-mindstorms/jekyll-playground/issues/5)
