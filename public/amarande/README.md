@@ -7,4 +7,4 @@ https://github.com/bigdata-mindstorms/jekyll-playground/blob/gh-pages/public/ama
 
 https://github.com/bigdata-mindstorms/jekyll-playground/blob/gh-pages/public/amarande/html.html
 
-https://bigdata-mindstorms.github.io/jekyll-playground/amarande/markdown.md
+https://bigdata-mindstorms.github.io/jekyll-playground/amarande/html.html
