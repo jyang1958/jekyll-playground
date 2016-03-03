@@ -53,7 +53,7 @@ https://bigdata-mindstorms.github.io/jekyll-playground/public/ontouchstart/page_
 
 生成的网址：
 
-https://bigdata-mindstorms.github.io/jekyll-playground/public/ontouchstart/page_data.txt
+https://bigdata-mindstorms.github.io/jekyll-playground/public/ontouchstart/page_data.json
 
 具体的例子看我更新的README.md: 
 https://github.com/bigdata-mindstorms/jekyll-playground/blob/gh-pages/public/ontouchstart/README.md
