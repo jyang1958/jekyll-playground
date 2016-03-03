@@ -7,3 +7,5 @@ https://bigdata-mindstorms.github.io/jekyll-playground/public/ontouchstart/markd
 https://bigdata-mindstorms.github.io/jekyll-playground/public/ontouchstart/html.html
 
 https://bigdata-mindstorms.github.io/jekyll-playground/public/ontouchstart/page_data.html
+
+https://bigdata-mindstorms.github.io/jekyll-playground/public/ontouchstart/page_data.txt
