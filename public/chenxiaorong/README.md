@@ -1,5 +1,5 @@
 # hello world 
-1. 你好世界
+1.你好世界
 > - http://bigdata-mindstorms.github.io/jekyll-playground/public/chenxiaorong/
 >
 > - https://bigdata-mindstorms.github.io/jekyll-playground/public/chenxiaorong/
