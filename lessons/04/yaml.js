@@ -116,5 +116,6 @@ News:
   - 15-MAY-2001 -- YAML is started with a first pass specification.
 # Maintained by Clark C. Evans
 ---
-console.log({{ page | jsonify }});
+data = {{ page | jsonify }};
+console.log(data);
 
