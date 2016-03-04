@@ -13,3 +13,5 @@
 > - https://bigdata-mindstorms.github.io/jekyll-playground/public/chenxiaorong/page_data.md
 >
 > - https://bigdata-mindstorms.github.io/jekyll-playground/public/chenxiaorong/page_data.txt
+>
+> - https://bigdata-mindstorms.github.io/jekyll-playground/public/chenxiaorong/page_data.json
