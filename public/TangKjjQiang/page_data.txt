@@ -1,0 +1,1 @@
+{"content"=>"{{ page }}\n", "dir"=>"/public/ontouchstart", "name"=>"page_data.txt", "path"=>"public/ontouchstart/page_data.txt", "url"=>"/public/ontouchstart/page_data.txt"}
