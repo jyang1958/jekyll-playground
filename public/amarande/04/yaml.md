@@ -112,4 +112,4 @@ News:
 # Maintained by Clark C. Evans
 ---
 {{page}}
-<script src='yaml.js'></scipt>
+
