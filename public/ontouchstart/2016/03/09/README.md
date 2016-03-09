@@ -13,3 +13,8 @@ Generated pages
 - https://bigdata-mindstorms.github.io/jekyll-playground/public/ontouchstart/2016/03/09/container.html
 - https://bigdata-mindstorms.github.io/jekyll-playground/public/ontouchstart/2016/03/09/container-fluid.html
 
+You can learn more about Bootstrap from the examples in their repo:
+
+https://github.com/twbs/bootstrap/tree/master/docs/examples
+
+Happy copying and pasting. :smile:
