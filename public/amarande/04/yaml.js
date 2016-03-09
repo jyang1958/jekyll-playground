@@ -112,4 +112,4 @@ News:
 # Maintained by Clark C. Evans
 ---
 data = {{ page | jsonify }};
-console.log(data);
+
