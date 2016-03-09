@@ -119,4 +119,8 @@ News:
 
 # Please open JavaScript console to inspect the data
 
+{{page}}
+
+<script src='yaml.js'></script>
+
 
