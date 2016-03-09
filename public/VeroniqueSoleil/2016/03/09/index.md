@@ -16,4 +16,4 @@ The programme includes readings from works by Angela Carter, Ted Hughes, and Eli
 
 {% include VeroniqueSoleil/2016/03/09/test.md %}
 
-{% incude VeroniqueSoleil/2016/03/09/test.html %}
+{% include VeroniqueSoleil/2016/03/09/test.html %}
