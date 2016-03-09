@@ -18,3 +18,5 @@ You can learn more about Bootstrap from the examples in their repo:
 https://github.com/twbs/bootstrap/tree/master/docs/examples
 
 Happy copying and pasting. :smile:
+(But I do hope you learn how to create DOM elements with d3.js instead of writing tons of HTML code. 
+That would make it easy to turn your code into future libraries.)
