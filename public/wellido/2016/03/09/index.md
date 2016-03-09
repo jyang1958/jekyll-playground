@@ -1,7 +1,10 @@
 
 ---
+
 layout : wellido/2016/03/08/layoutTest1
+
 ---
+
 
 ### 这是我的[练习](http://bigdata-mindstorms.github.io/jekyll-playground/public/wellido/2016/03/09/index.html)
 
