@@ -1,5 +1,5 @@
 ---
-layout : On Reflection
+layout : OnReflection
 ---
 
 [On Reflection](http://www.bbc.co.uk/programmes/b072hs5n)
