@@ -14,6 +14,6 @@ But sometimes we take a long look. Perhaps at times when we're disconcerted by l
 
 The programme includes readings from works by Angela Carter, Ted Hughes, and Elizabeth Jennings. There's music by Britten, Bill Evans and Debussy. The readers are Michael Lumsden and Chetna Pandya.
 
-{% include VeroniqueSoleil/2016/03/09/OnReflection.md %}
+{% include VeroniqueSoleil/2016/03/09/test.md %}
 
-{% incude VeroniqueSoleil/2016/03/09/OnReflection.html %}
+{% incude VeroniqueSoleil/2016/03/09/test.html %}
