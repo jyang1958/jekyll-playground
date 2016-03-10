@@ -11,7 +11,7 @@ This is a [web page](https://bigdata-mindstorms.github.io/jekyll-playground/publ
 
 * [_layouts/amarande/2016/03/08/default.html](https://github.com/bigdata-mindstorms/jekyll-playground/blob/gh-pages/_layouts/amarande/2016/03/08/default.html)
 
-* [public/amarande/03/08/index.md](https://github.com/bigdata-mindstorms/jekyll-playground/new/gh-pages/public/amarande/03/08)
+* [public/amarande/03/08/index.md](https://github.com/bigdata-mindstorms/jekyll-playground/blob/gh-pages/public/amarande/03/08/index.md)
 
 * [_includes/amarande/2016/03/08/parksCanada.html](https://github.com/bigdata-mindstorms/jekyll-playground/blob/gh-pages/_includes/amarande/2016/03/08/parksCanada.html)
 
