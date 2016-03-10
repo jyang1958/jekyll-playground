@@ -2,7 +2,7 @@
 
 This is a [web page](http://bigdata-mindstorms.github.io/jekyll-playground/public/amarande/03/08/index.html) generated from these two files
 
-- [_layouts/amarande/2016/03/07/default.html](https://github.com/bigdata-mindstorms/jekyll-playground/blob/gh-pages/_layouts/amarande/2016/03/07/default.html)
+
 - [public/amarande/03/07/index.md](https://github.com/bigdata-mindstorms/jekyll-playground/blob/gh-pages/public/amarande/03/08/index.md)
 
 Pay attention to the naming convention of all the files involved.
