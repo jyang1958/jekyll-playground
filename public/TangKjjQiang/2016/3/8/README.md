@@ -5,4 +5,4 @@ Hello: This is my test
 
 [The layout file](https://github.com/bigdata-mindstorms/jekyll-playground/new/gh-pages/public/TangKjjQiang/2016/3/8/layout.html)
 
-[The md file](https://github.com/bigdata-mindstorms/jekyll-playground/new/gh-pages/public/TangKjjQiang/2016/3/8/index.md)
+[The md file](https://github.com/bigdata-mindstorms/jekyll-playground/blob/gh-pages/public/TangKjjQiang/2016/3/8/index.md)
