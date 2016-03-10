@@ -9,4 +9,4 @@ This is a [web page](http://bigdata-mindstorms.github.io/jekyll-playground/publi
 
 * [_includes/amarande/2016/03/08/parksCanada.html](https://github.com/bigdata-mindstorms/jekyll-playground/blob/gh-pages/_includes/amarande/2016/03/08/parksCanada.html)
 
-* [_includes/amarande/2016/03/08/parksLists.html](https://github.com/bigdata-mindstorms/jekyll-playground/blob/gh-pages/_includes/amarande/2016/03/08/parksList.md)
+* [_includes/amarande/2016/03/08/parksLists.md](https://github.com/bigdata-mindstorms/jekyll-playground/blob/gh-pages/_includes/amarande/2016/03/08/parksList.md)
