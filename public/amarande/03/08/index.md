@@ -1,7 +1,4 @@
 
----
-layout: amarande/2016/03/07/default
----
 
 This is a [web page](http://bigdata-mindstorms.github.io/jekyll-playground/public/amarande/03/08/index.html) generated from these two files
 
