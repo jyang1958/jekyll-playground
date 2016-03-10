@@ -13,7 +13,6 @@ This is a [web page](https://bigdata-mindstorms.github.io/jekyll-playground/publ
 
 * [public/amarande/03/08/index.md](https://github.com/bigdata-mindstorms/jekyll-playground/new/gh-pages/public/amarande/03/08)
 
-* [_includes/amarande/2016/03/08/parksCanada.html](https://github.com/bigdata-mindstorms/jekyll-playground/tree/gh-pages/_includes/amarande/2016/03/08)
+* [_includes/amarande/2016/03/08/parksCanada.html](https://github.com/bigdata-mindstorms/jekyll-playground/blob/gh-pages/_includes/amarande/2016/03/08/parksCanada.html)
 
-* [_includes/amarande/2016/03/08/parksLists.html](https://github.com/bigdata-mindstorms/jekyll-playground/tree/gh-pages/_includes/amarande/2016/03/08)
-
+* [_includes/amarande/2016/03/08/parksLists.html](https://github.com/bigdata-mindstorms/jekyll-playground/blob/gh-pages/_includes/amarande/2016/03/08/parksList.md)
