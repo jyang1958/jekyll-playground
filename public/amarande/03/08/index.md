@@ -6,7 +6,7 @@ layout: amarande/2016/03/08/default
 
 {% include amarande/2016/03/08/parksList.md %}
 
-This is a [web page](http://bigdata-mindstorms.github.io/jekyll-playground/public/amarande/03/07/index.html) generated from following files
+This is a [web page](http://bigdata-mindstorms.github.io/jekyll-playground/public/amarande/03/08/index.html) generated from following files
 
 
 * [_layouts/amarande/2016/03/08/default.html](https://github.com/bigdata-mindstorms/jekyll-playground/blob/gh-pages/_layouts/amarande/2016/03/08/default.html)
