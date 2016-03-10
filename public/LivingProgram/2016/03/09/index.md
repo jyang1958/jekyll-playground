@@ -10,4 +10,5 @@ Files:
 * [test.html](https://github.com/bigdata-mindstorms/jekyll-playground/blob/gh-pages/_includes/LivingProgram/2016/03/09/test.html)
 
 {% include LivingProgram/2016/03/09/test.md %}
+
 {% include LivingProgram/2016/03/09/test.html %}
