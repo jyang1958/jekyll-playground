@@ -11,6 +11,6 @@
 
 
 
-{% include TangKjjQiang/2016/03/11/test.html %}
+{% include wellido/2016/03/09/includeTest01.html %}
 
-{% include TangKjjQiang/2016/03/11/test.md %}
+{% include wellido/2016/03/09/includeTest01.md %}
