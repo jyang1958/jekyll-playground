@@ -9,6 +9,8 @@
 
 [include.html](https://github.com/bigdata-mindstorms/jekyll-playground/blob/gh-pages/_includes/wellido/2016/03/09/includeTest01.html)
 
-{% include wellido/2016/03/09/includeTest01.html %}
 
-{% include wellido/2016/03/09/includeTest01.md %}
+
+{% include TangKjjQiang/2016/03/11/test.html %}
+
+{% include TangKjjQiang/2016/03/11/test.md %}
