@@ -7,6 +7,4 @@ This is a [web page](http://bigdata-mindstorms.github.io/jekyll-playground/publi
 
 
 
-{% include TangKjjQiang/2016/03/11/test.html %}
 
-{% include TangKjjQiang/2016/03/11/test.md %}
