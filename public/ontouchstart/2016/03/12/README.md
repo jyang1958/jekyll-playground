@@ -22,5 +22,5 @@ Generated pages
 - https://bigdata-mindstorms.github.io/jekyll-playground/public/ontouchstart/2016/03/12/index.html
 - https://bigdata-mindstorms.github.io/jekyll-playground/public/ontouchstart/2016/03/12/container.html
 - https://bigdata-mindstorms.github.io/jekyll-playground/public/ontouchstart/2016/03/12/container-fluid.html
-- https://bigdata-mindstorms.github.io/jekyll-playground/public/ontouchstart/2016/03/12/dropdow.html
+- https://bigdata-mindstorms.github.io/jekyll-playground/public/ontouchstart/2016/03/12/dropdown.html
 
