@@ -7,3 +7,6 @@
 * [_layouts/LivingProgram/2016/03/11/Lesson07/container-fluid.html](https://github.com/bigdata-mindstorms/jekyll-playground/tree/gh-pages/_layouts/LivingProgram/2016/03/11/Lesson07/container-fluid.html)
 
 # Generated Web Pages:
+* https://bigdata-mindstorms.github.io/jekyll-playground/public/LivingProgram/2016/03/11/Lesson07/index.html
+* https://bigdata-mindstorms.github.io/jekyll-playground/public/LivingProgram/2016/03/11/Lesson07/container.html
+* https://bigdata-mindstorms.github.io/jekyll-playground/public/LivingProgram/2016/03/11/Lesson07/container-fluid.html
