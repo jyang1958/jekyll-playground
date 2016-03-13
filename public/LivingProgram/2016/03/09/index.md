@@ -1,5 +1,5 @@
 ---
-layout: LivingProgram/2016/2016/03/08/default
+layout: LivingProgram/2016/03/08/default
 ---
 # [LivingProgram](https://github.com/LivingProgram)
 
