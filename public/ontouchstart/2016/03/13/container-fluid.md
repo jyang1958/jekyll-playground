@@ -1,10 +1,11 @@
 ---
 layout: fancy
 ---
+<div>
+{{ page }}
+</div>
 <script>
-var container = d3.select('body')
-  .append('div')
+var container = d3.select('div')
   .attr('class', 'container-fluid')
-  .style({background: 'yellow'})
-  .html("{{ page }}")
+  .style({background: 'yellow'});
 </script>
