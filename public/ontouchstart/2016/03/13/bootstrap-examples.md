@@ -31,10 +31,18 @@ d3.select('div.container')
   .selectAll('h2')
   .data(examples)
   .enter()
-  .append('h2')
-  .append('a')
-  .attr('href', function (d) { 
-    return 'https://getbootstrap.com/examples/' + d; 
-  })
-  .html(function (d) { return d;});
+  .each(function (d) {
+    var s = d3.select(this);
+    s.append('h2')
+     .append('a')
+     .attr('href', function (d) { 
+       return 'https://getbootstrap.com/examples/' + d; 
+     })
+    .html(function (d) { return d;});
+    s.append('a')
+     .attr('href', function (d) { 
+       return 'https://github.com/twbs/bootstrap/tree/gh-pages/examples/' + d; 
+     })
+    .html('GitHub source');
+  });
 </script>
