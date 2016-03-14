@@ -1,0 +1,23 @@
+---
+examples:
+  - blog
+  - carousel
+  - cover
+  - dashboard
+  - grid
+  - jumbotron-narrow
+  - jumbotron
+  - justified-nav
+  - navbar-fixed-top
+  - navbar-static-top
+  - navbar
+  - non-responsive
+  - offcanvas
+  - signin
+  - starter-template
+  - sticky-footer-navbar
+  - sticky-footer
+  - theme
+  - tooltip-viewport
+---
+{{ page.examples | jsonify }})

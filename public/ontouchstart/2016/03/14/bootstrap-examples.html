@@ -1,26 +1,6 @@
 ---
 layout: fancy
 title: Bootstrap examples
-examples:
-  - blog
-  - carousel
-  - cover
-  - dashboard
-  - grid
-  - jumbotron-narrow
-  - jumbotron
-  - justified-nav
-  - navbar-fixed-top
-  - navbar-static-top
-  - navbar
-  - non-responsive
-  - offcanvas
-  - signin
-  - starter-template
-  - sticky-footer-navbar
-  - sticky-footer
-  - theme
-  - tooltip-viewport
 ---
 <div class="container">
 <h1>{{ page.title }}</h1>
@@ -30,5 +10,7 @@ GitHub source
 </div>
 <script src="bootstrap-examples.js"></script>
 <script>
-bootstrap_examples(d3.select('div.container'), {{ page.examples | jsonify }});
+d3.json('bootstrap-example.json', function (e, d) {
+  bootstrap_examples(d3.select('div.container'), d)
+});
 </script>
