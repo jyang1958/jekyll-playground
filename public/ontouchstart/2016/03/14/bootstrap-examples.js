@@ -1,6 +1,6 @@
-function bootstrap_examples(container, examples){
+function bootstrap_examples(container, data){
   container.selectAll('div')
-    .data(examples)
+    .data(data)
     .enter()
     .append('div')
     .each(function (d) {
