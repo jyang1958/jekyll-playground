@@ -2,7 +2,7 @@
 layout: amarande/2016/03/10/default
 ---
 
-- [default.html](default.html)
+- [index.html](index.html)
 
 - [container.html](container.html)
 
