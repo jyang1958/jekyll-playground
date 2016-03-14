@@ -20,7 +20,7 @@ examples:
   - sticky-footer-navbar
   - sticky-footer
   - theme
-  - tootip-viewport
+  - tooltip-viewport
 ---
 <div class="container">
 <h1>Bootstrap examples</h1>
