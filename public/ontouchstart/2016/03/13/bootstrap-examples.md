@@ -28,13 +28,14 @@ examples:
 <script>
 examples = {{ page.examples | jsonify }};
 d3.select('div.container')
-  .selectAll('h2')
+  .selectAll('div')
   .data(examples)
   .enter()
-  .append('h2')
+  .append('div')
   .each(function (d) {
     var s = d3.select(this);
-    s.append('a')
+    s.append('h2')
+     .append('a')
      .attr('href', function (d) { 
        return 'https://getbootstrap.com/examples/' + d; 
      })
