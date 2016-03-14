@@ -1,0 +1,52 @@
+---
+layout: fancy
+title: Bootstrap examples
+examples:
+  - blog
+  - carousel
+  - cover
+  - dashboard
+  - grid
+  - jumbotron-narrow
+  - jumbotron
+  - justified-nav
+  - navbar-fixed-top
+  - navbar-static-top
+  - navbar
+  - non-responsive
+  - offcanvas
+  - signin
+  - starter-template
+  - sticky-footer-navbar
+  - sticky-footer
+  - theme
+  - tooltip-viewport
+---
+<div class="container">
+<h1>{{ page.title }}</h1>
+<a href="https://github.com/bigdata-mindstorms/jekyll-playground/blob/gh-pages/public/ontouchstart/2016/03/13/bootstrap-examples.html">
+GitHub source
+</a>
+</div>
+<script>
+examples = {{ page.examples | jsonify }};
+d3.select('div.container')
+  .selectAll('div')
+  .data(examples)
+  .enter()
+  .append('div')
+  .each(function (d) {
+    var s = d3.select(this);
+    s.append('h2')
+     .append('a')
+     .attr('href', function (d) { 
+       return 'https://getbootstrap.com/examples/' + d; 
+     })
+    .html(function (d) { return d;});
+    s.append('a')
+     .attr('href', function (d) { 
+       return 'https://github.com/twbs/bootstrap/tree/gh-pages/examples/' + d; 
+     })
+    .html('GitHub source');
+  });
+</script>
