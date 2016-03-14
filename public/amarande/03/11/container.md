@@ -1,6 +1,11 @@
+--
+layout: fancy
 ---
-layout: amrande/2016/03/11/container
----
-
+<div>
 {{ page }}
-
+</div>
+<script>
+var container = d3.select('div')
+  .attr('class', 'container')
+  .style({background: 'yellow'});
+</script>
