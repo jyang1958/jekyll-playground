@@ -31,10 +31,10 @@ d3.select('div.container')
   .selectAll('h2')
   .data(examples)
   .enter()
+  .append('h2')
   .each(function (d) {
     var s = d3.select(this);
-    s.append('h2')
-     .append('a')
+    s.append('a')
      .attr('href', function (d) { 
        return 'https://getbootstrap.com/examples/' + d; 
      })
