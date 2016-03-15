@@ -25,4 +25,14 @@ nav:
 <script src="nav.js"></script>
 <script>
 nav(d3.select('body'), {{ page.nav |jsonify }});
+var iframe = d3.select('body')
+  .append('iframe')
+  .style('width', '100%')
+  .style('height', window.innerHeight - 50 + 'px')
+  .style('border', 'none');
+
+window.onhashchange = function () {
+  var path = document.location.hash.replace(/#/, '') + '/';
+  iframe.attr('src', 'https://getbootstrap.com/examples/' + path);
+}
 </script>
