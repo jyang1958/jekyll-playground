@@ -1,0 +1,48 @@
+---
+layout: fancy
+title: Bootstrap examples
+nav:
+  - blog
+  - carousel
+  - cover
+  - dashboard
+  - grid
+  - jumbotron-narrow
+  - jumbotron
+  - justified-nav
+  - navbar-fixed-top
+  - navbar-static-top
+  - navbar
+  - non-responsive
+  - offcanvas
+  - signin
+  - starter-template
+  - sticky-footer-navbar
+  - sticky-footer
+  - theme
+  - tooltip-viewport
+---
+<script src="nav.js"></script>
+<script>
+d3.json('bootstrap-examples.json', function (e, d) {
+  nav(d3.select('body'), d);
+  var iframe = d3.select('body')
+    .append('iframe')
+    .style('position', 'absolute')
+    .style('width', '100%')
+    .style('border', 'none');
+
+  window.onhashchange = function () {
+    var path = document.location.hash.replace(/#/, '') + '/';
+    iframe.attr('src', 'https://getbootstrap.com/examples/' + path);
+  }
+
+  function fit() {
+    var h = parseFloat(d3.select('nav').style('height'));
+    iframe.style('top', h + 'px').style('height', window.innerHeight - h + 'px');
+  }
+  
+  fit();
+  window.onresize = fit;
+});
+</script>

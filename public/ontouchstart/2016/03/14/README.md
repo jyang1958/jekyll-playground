@@ -2,6 +2,7 @@ Refactor [2016/03/13](https://github.com/bigdata-mindstorms/jekyll-playground/tr
 
 - data [bootstrap-examples.json](bootstrap-examples.json)
 - container [bootstrap-examples.html](bootstrap-examples.html) 
+- container [bootstrap-examples-nav.html](bootstrap-examples-nav.html) 
 - function [bootstrap-examples.js](bootstrap-examples.js)
 
 Since Javascript does not allow `-` in function name, we name the function to
@@ -12,3 +13,4 @@ function bootstrap_examples(container, data) {}
 Generated page
 
 - https://bigdata-mindstorms.github.io/jekyll-playground/public/ontouchstart/2016/03/14/bootstrap-examples.html
+- https://bigdata-mindstorms.github.io/jekyll-playground/public/ontouchstart/2016/03/14/bootstrap-examples-nav.html
