@@ -28,13 +28,20 @@ nav(d3.select('body'), {{ page.nav |jsonify }});
 var iframe = d3.select('body')
   .append('iframe')
   .style('position', 'absolute')
-  .style('top', '200px')
   .style('width', '100%')
-  .style('height', window.innerHeight - 200 + 'px')
   .style('border', 'none');
 
 window.onhashchange = function () {
   var path = document.location.hash.replace(/#/, '') + '/';
   iframe.attr('src', 'https://getbootstrap.com/examples/' + path);
 }
+
+function fit() {
+  var h = parseFloat(d3.select('nav').style('height'));
+  iframe.style('top', h + 'px').style('height', window.innerHeight - h + 'px');
+}
+
+fit();
+window.onresize = fit;
+
 </script>
