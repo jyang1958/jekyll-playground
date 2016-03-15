@@ -27,8 +27,10 @@ nav:
 nav(d3.select('body'), {{ page.nav |jsonify }});
 var iframe = d3.select('body')
   .append('iframe')
+  .style('position', 'absolute')
+  .style('top', '200px')
   .style('width', '100%')
-  .style('height', window.innerHeight - 50 + 'px')
+  .style('height', window.innerHeight - 200 + 'px')
   .style('border', 'none');
 
 window.onhashchange = function () {
