@@ -1,0 +1,28 @@
+---
+layout: fancy
+title: Bootstrap examples
+nav:
+  - blog
+  - carousel
+  - cover
+  - dashboard
+  - grid
+  - jumbotron-narrow
+  - jumbotron
+  - justified-nav
+  - navbar-fixed-top
+  - navbar-static-top
+  - navbar
+  - non-responsive
+  - offcanvas
+  - signin
+  - starter-template
+  - sticky-footer-navbar
+  - sticky-footer
+  - theme
+  - tooltip-viewport
+---
+<script src="nav.js"></script>
+<script>
+nav(d3.select('body'), {{ page.nav |jsonify }});
+</script>
