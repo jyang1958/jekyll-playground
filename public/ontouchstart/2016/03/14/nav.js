@@ -16,7 +16,7 @@ function nav(c, data) {
   button.append('span').attr('class', 'icon-bar');
   button.append('span').attr('class', 'icon-bar');
 
-  navbar_header.append('a').attr('href', '#').attr('class', 'navbar-brand').html('Tritry');
+  navbar_header.append('a').attr('href', '#').attr('class', 'navbar-brand').html('BDM');
 
   container.append('div')
     .attr('id', 'navbar')
