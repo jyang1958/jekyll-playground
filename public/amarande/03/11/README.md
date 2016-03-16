@@ -7,3 +7,5 @@
 - [index.html](https://bigdata-mindstorms.github.io/jekyll-playground/public/amarande/03/11/index.html)
 
 - [dropDown.html](https://bigdata-mindstorms.github.io/jekyll-playground/public/amarande/03/11/dropDown.html)
+
+- [bootstrap_examples.html](https://bigdata-mindstorms.github.io/jekyll-playground/public/amarande/03/11/bootstrap_examples.html)
