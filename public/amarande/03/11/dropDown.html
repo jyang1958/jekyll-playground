@@ -1,5 +1,5 @@
 ---
-layout: container_fluid
+layout: fancy
 data:
   - text: A
     url: '#'  
@@ -10,6 +10,6 @@ data:
 ---
 <script src="dropDown.js"></script>
 <script>
-d3.select('div.container_fluid').style({background: 'yellow'})
-dropdown(d3.select('div'), {{ page.data | jsonify }});
+var container = d3.select('body').append('div').attr('class','container_fluid').style({background: 'yellow'});
+dropdown(container, {{ page.data | jsonify }});
 </script>
