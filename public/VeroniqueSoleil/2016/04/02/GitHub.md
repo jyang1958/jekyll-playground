@@ -7,7 +7,7 @@ title : 一个平易近人的GitHub入门
 
 **By：VeronicaSun**
 
-![GitHub](https://github.com/bigdata-mindstorms/jekyll-playground/blob/gh-pages/public/VeroniqueSoleil/2016/04/02/GitHub.jpg)
+![GitHub](GitHub.jpg)
 
 这是个致力于“零术语”的GitHub入门，同为菜鸟，且是这个领域食物链底端的文科女，我深切的理解“这上面的字都认识，但是连在一起是在说毛呢”的感受。
 
