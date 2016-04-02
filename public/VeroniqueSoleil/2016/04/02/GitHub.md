@@ -1,5 +1,5 @@
 ---
-layout : VeroniqueSoleil/2016/04/02/layout1
+layout : VeroniqueSoleil/2016/04/02/layout2
 ---
 
 # 一个平易近人的GitHub入门
