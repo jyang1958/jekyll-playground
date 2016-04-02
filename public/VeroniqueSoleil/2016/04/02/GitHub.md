@@ -51,7 +51,7 @@ title : 一个平易近人的GitHub入门
 
 * 首先，你得拥有一个GitHub账号，点击[这里](https://github.com/)开始你的探索
 
-* 有了账号以后，你可以建立你自己的“仓库”（Repositories），写、上传文件抑或建立自己的“群”（Oranization）
+* 有了账号以后，你可以建立你自己的“仓库”（Repositories），写、上传文件抑或建立自己的“群”（Organizations）
 
 * 也许你会加入几个“群”，这里你可以参与不同的项目：在code里写你的文件，在Issue里和小伙伴们讨论问题
 
