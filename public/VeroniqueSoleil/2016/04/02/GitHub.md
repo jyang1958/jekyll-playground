@@ -1,3 +1,7 @@
+---
+layout : VeroniqueSoleil/2016/04/02/layout1
+---
+
 # 一个平易近人的GitHub入门
 
 **By：VeronicaSun**
