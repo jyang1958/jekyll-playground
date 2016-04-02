@@ -1,5 +1,6 @@
 ---
 layout : VeroniqueSoleil/2016/04/02/layout2
+title : 一个平易近人的GitHub入门
 ---
 
 # 一个平易近人的GitHub入门
