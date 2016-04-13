@@ -4,15 +4,15 @@
 
 [md文件](https://github.com/bigdata-mindstorms/jekyll-playground/blob/gh-pages/public/nnsghbb/2016/04/12/index.md)
 
-[include.html](https://github.com/bigdata-mindstorms/jekyll-playground/blob/gh-pages/_includes/nnsghbb/2016/04/12/include.html)
+[include.html](https://github.com/bigdata-mindstorms/jekyll-playground/blob/gh-pages/_includes/nnsghbb/2016/04/12/include1.html)
 
-[include.md](https://github.com/bigdata-mindstorms/jekyll-playground/blob/gh-pages/_includes/nnsghbb/2016/04/12/include.md)
+[include.md](https://github.com/bigdata-mindstorms/jekyll-playground/blob/gh-pages/_includes/nnsghbb/2016/04/12/include1.md)
 
 
 
-{% include nnsghbb/2016/04/12/include.html %}
+{% include nnsghbb/2016/04/12/include1.html %}
 
-{% include nnsghbb/2016/04/12/include.md %}
+{% include nnsghbb/2016/04/12/include1.md %}
 
 
 
