@@ -9,4 +9,4 @@ Links for [Lesson 2](https://github.com/bigdata-mindstorms/jekyll-playground/tre
 Links for [Lesson 3](https://github.com/bigdata-mindstorms/jekyll-playground/tree/gh-pages/lessons/03)
  * https://bigdata-mindstorms.github.io/jekyll-playground/public/IntelligentDataMiner/2016/04/16/page_data.json
  * https://bigdata-mindstorms.github.io/jekyll-playground/public/IntelligentDataMiner/2016/04/16/page_data.txt
- * https://bigdata-mindstorms.github.io/jekyll-playground/public/IntelligentDataMiner/2016/04/16/page_data.md
+ * https://bigdata-mindstorms.github.io/jekyll-playground/public/IntelligentDataMiner/2016/04/16/page_data.html
