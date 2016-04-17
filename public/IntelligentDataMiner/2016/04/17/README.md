@@ -1,7 +1,9 @@
+This [Webpage](http://bigdata-mindstorms.github.io/jekyll-playground/public/IntellligentDataMiner/2016/04/17/index.html) was developed by the IntelligentDataMiner in 1 hour.
+
+https://github.com/bigdata-mindstorms/jekyll-playground/blob/gh-pages/public/IntelligentDataMiner/2016/04/17/index.md
+https://github.com/bigdata-mindstorms/jekyll-playground/blob/gh-pages/_layouts/IntelligentDataMiner/2016/04/17/default.html
 
 
-
-This Webpage was developed by the IntelligentDataMiner in 1 hour.
 
 * Don't forget there is 3 apples for every orange
 
