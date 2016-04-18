@@ -1,4 +1,4 @@
 ---
-layout : VeroniqueSoleil/2016/03/14/contianer-fluid
+layout : VeroniqueSoleil/2016/03/14/container-fluid
 ---
 {{ page }}
