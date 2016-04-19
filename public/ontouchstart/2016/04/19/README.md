@@ -64,3 +64,29 @@ Here is a [page with headings](https://bigdata-mindstorms.github.io/jekyll-playg
 ```
 the source is [here](headings.html). Notice the use of [for loops](https://github.com/shopify/liquid/wiki/liquid-for-designers#for-loops) in [liquid templating engine](https://jekyllrb.com/docs/frontmatter/#custom-variables).
 
+### meta
+
+Here is a [blank page](https://bigdata-mindstorms.github.io/jekyll-playground/public/ontouchstart/2016/04/19/meta.html) with [meta tags](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta) in the `head`.
+
+```html
+<html>
+  <head>
+  
+    <meta  charset= utf-8 >
+  
+    <meta  http-equiv= X-UA-Compatible  content= IE=edge >
+  
+    <meta  name= viewport  content= width=device-width, initial-scale=1 >
+  
+  </head>
+  <body>
+  </body>
+</html>
+```
+the source is [here](meta.html). Notice the use of double [for loops](https://github.com/shopify/liquid/wiki/liquid-for-designers#for-loops) in [liquid templating engine](https://jekyllrb.com/docs/frontmatter/#custom-variables). For hash item, we use `item[0]` for the key and `item[1]` for the value:
+
+```
+{% for line in page.meta %}
+  <meta {% for item in line %} {{ item[0] }}= {{ item[1] }} {% endfor %}>
+{% endfor %}
+```
