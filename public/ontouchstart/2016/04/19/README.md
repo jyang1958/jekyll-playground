@@ -91,3 +91,23 @@ the source is [here](meta.html). Notice the use of double [for loops](https://gi
   <meta {% for item in line %}{{ item[0] }}="{{ item[1] }}" {% endfor %}>
 {% endfor %}
 ```
+
+For detail dicussions on meta tags, please read [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta). 
+Here we use screenshots to demonstrate how `viewport` meta tag affect the web page viewed on desktop and mobile.
+
+#### Without meta
+
+Desktop
+![](headings_desktop.png)
+
+Mobile
+![](headings_mobile.png)
+
+#### With meta
+
+Desktop
+![](headings_with_meta_desktop.png)
+
+Mobile
+![](headings_with_meta_mobile.png)
+
