@@ -1,0 +1,23 @@
+---
+style :
+  body :
+    background : red
+    color : white
+---
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+    {% for selector in page.style %}
+      {{ selector[0] }} {
+       {% for css in selector[1] %}
+         {{ css[0] }} : {{ css[1] }}; 
+       {% endfor %}>
+      }
+    {% endfor %}
+    </style>
+  </head>
+  <body>
+    <h1>This should be white on red</h1>
+  </body>
+</html>
