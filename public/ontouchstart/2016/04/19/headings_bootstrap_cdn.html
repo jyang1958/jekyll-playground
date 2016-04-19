@@ -1,5 +1,5 @@
 ---
-title: Headings with meta and style
+title: Headings bootstrap cdn
 meta : # see https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
   - charset : utf-8
   - http-equiv : X-UA-Compatible
@@ -26,7 +26,6 @@ style :
   body :
     background : white
     color : black
-
 headings:
   - Apple
   - Banana
@@ -56,9 +55,12 @@ headings:
     </style>
   </head>
   <body>
-    <div class="content-fluid">
+    <div class="content">
+    <h1>{{ page.title }}</h1>
+    </div>
+    <div class="content">
     {% for heading in page.headings %}
-      <h1>{{ heading }}</h1>
+      <h2>{{ heading }}</h2>
     {% endfor %}
     </div>
   </body>

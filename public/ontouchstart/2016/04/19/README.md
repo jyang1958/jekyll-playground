@@ -186,3 +186,9 @@ style :
 ![](headings_with_meta_style.png)
 
 [source](headings_with_meta_style.html)
+
+### headings with bootstrap cdn
+
+[headings_bootstrap_cdn.html](https://bigdata-mindstorms.github.io/jekyll-playground/public/ontouchstart/2016/04/19/headings_bootstrap_cdn.html)
+
+[source](headings_bootstrap_cdn.html)
