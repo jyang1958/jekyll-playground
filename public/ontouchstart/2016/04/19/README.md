@@ -122,7 +122,9 @@ Mobile
 
 ### style
 
-[style.html](https://bigdata-mindstorms.github.io/jekyll-playground/public/ontouchstart/2016/04/19/style.html).
+[style.html](https://bigdata-mindstorms.github.io/jekyll-playground/public/ontouchstart/2016/04/19/style.html)
+
+![](style.png)
 
 ```html
 <!DOCTYPE html>
