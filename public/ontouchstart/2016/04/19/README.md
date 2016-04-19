@@ -98,7 +98,7 @@ For meta tag
 ``` 
 see [reference here](https://github.com/h5bp/html5-boilerplate/blob/master/src/doc/html.md#x-ua-compatible).
 
-Following screenshot demonstrate how `viewport` meta tag affect the web page viewed on desktop and mobile.
+Following screenshot demonstrate how `viewport` meta tag affects the web page viewed on desktop and mobile.
 
 #### Without meta
 
