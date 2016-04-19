@@ -92,8 +92,13 @@ the source is [here](meta.html). Notice the use of double [for loops](https://gi
 {% endfor %}
 ```
 
-For detail dicussions on meta tags, please read [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta). 
-Here we use screenshots to demonstrate how `viewport` meta tag affect the web page viewed on desktop and mobile.
+For meta tag
+```html
+<meta http-equiv="X-UA-Compatible" content="IE=edge" >
+``` 
+see [reference here](https://github.com/h5bp/html5-boilerplate/blob/master/src/doc/html.md#x-ua-compatible).
+
+Following screenshot demonstrate how `viewport` meta tag affect the web page viewed on desktop and mobile.
 
 #### Without meta
 
@@ -110,4 +115,5 @@ Desktop
 
 Mobile
 ![](headings_with_meta_mobile.png)
+
 
