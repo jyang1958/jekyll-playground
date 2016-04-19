@@ -128,6 +128,7 @@ Mobile
 <!DOCTYPE html>
 <html>
   <head>
+    <title>White on Red</title>
     <style>
     
       body {
@@ -141,7 +142,7 @@ Mobile
     </style>
   </head>
   <body>
-    <h1>This should be white on red</h1>
+    <h1>White on Red</h1>
   </body>
 </html>
 ```
@@ -150,6 +151,7 @@ Here is the [source](style.html), notice the double for loop
 
 ```
 ---
+title : White on Red
 style :
   body :
     background : red
@@ -158,6 +160,7 @@ style :
 <!DOCTYPE html>
 <html>
   <head>
+    <title>{{ page.title }}</title>
     <style>
     {% for selector in page.style %}
       {{ selector[0] }} {
@@ -169,7 +172,7 @@ style :
     </style>
   </head>
   <body>
-    <h1>This should be white on red</h1>
+    <h1>{{ page.title }}</h1>
   </body>
 </html>
 ```
