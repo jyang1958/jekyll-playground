@@ -98,7 +98,11 @@ For meta tag
 ``` 
 see [reference here](https://github.com/h5bp/html5-boilerplate/blob/master/src/doc/html.md#x-ua-compatible).
 
-Following screenshot demonstrate how `viewport` meta tag affects the web page viewed on desktop and mobile.
+Following screenshots of 
+[headings.html](https://bigdata-mindstorms.github.io/jekyll-playground/public/ontouchstart/2016/04/19/headings.html) 
+and
+[headings_with_meta.html](https://bigdata-mindstorms.github.io/jekyll-playground/public/ontouchstart/2016/04/19/headings_with_meta.html) 
+demonstrate how `viewport` meta tag affects the web page viewed on desktop and mobile.
 
 #### Without meta
 
