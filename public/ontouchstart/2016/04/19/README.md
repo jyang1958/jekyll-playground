@@ -191,4 +191,8 @@ style :
 
 [headings_bootstrap_cdn.html](https://bigdata-mindstorms.github.io/jekyll-playground/public/ontouchstart/2016/04/19/headings_bootstrap_cdn.html)
 
+![](headings_bootstrap_cdn_desktop.png)
+
+![](headings_bootstrap_cdn_mobile.png)
+
 [source](headings_bootstrap_cdn.html)
