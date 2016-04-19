@@ -178,3 +178,11 @@ style :
   </body>
 </html>
 ```
+
+### headings with meta and style
+
+[headings_with_meta_style.html](https://bigdata-mindstorms.github.io/jekyll-playground/public/ontouchstart/2016/04/19/headings_with_meta_style.html)
+
+![](headings_with_meta_styles.png)
+
+[source](headings_with_meta_style.html)
