@@ -1,5 +1,6 @@
 ---
-layout : On Reflection
+layout : VeroniqueSoleil/2016/03/09/default
+title : On Reflection
 ---
 
 [On Reflection](http://www.bbc.co.uk/programmes/b072hs5n)
