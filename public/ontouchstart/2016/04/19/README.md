@@ -40,3 +40,7 @@ Here is a [blank page with a title](https://bigdata-mindstorms.github.io/jekyll-
 the source is [here](blank_title.html).
 
 Notice how we define and use [custom variable](https://jekyllrb.com/docs/frontmatter/#custom-variables) `{{ page.title }}` in the source.
+
+## Headings 
+
+Here is a [page with headings](https://bigdata-mindstorms.github.io/jekyll-playground/public/ontouchstart/2016/04/19/headings.html).
