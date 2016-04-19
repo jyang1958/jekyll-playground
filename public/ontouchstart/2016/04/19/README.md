@@ -62,5 +62,5 @@ Here is a [page with headings](https://bigdata-mindstorms.github.io/jekyll-playg
   </body>
 </html>
 ```
-the source is [here](headings.html). Notice the use of [liquid template engine](https://jekyllrb.com/docs/frontmatter/#custom-variables) [for loops](https://github.com/shopify/liquid/wiki/liquid-for-designers#for-loops).
+the source is [here](headings.html). Notice the use of [for loops](https://github.com/shopify/liquid/wiki/liquid-for-designers#for-loops) in [liquid templating engine](https://jekyllrb.com/docs/frontmatter/#custom-variables).
 
