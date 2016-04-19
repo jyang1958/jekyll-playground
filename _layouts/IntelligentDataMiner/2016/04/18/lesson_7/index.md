@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta cherset="utf-8">
+    <meta http-equiv="X-CA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="../../../../../bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../../../bootstrap/3.3.6/css/boostrap-theme.min.css">
+    <script src="../../../../../jquery/2.2.1/jquery.min.js"></script>
+    <script src="../../../../../boostrap/3.3.6/js/boostrap.min.js"></script>
+    <script src="../../../../../d3/3.5.16/d3.min.js"></script>
+    <script>
+      console.log(d3.version, $fn.query);
+    </script>
+  </head>
+  <body>
+    {{ content }}
+  </body>
+</html>
