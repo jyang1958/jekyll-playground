@@ -44,3 +44,23 @@ Notice how we define and use [custom variable](https://jekyllrb.com/docs/frontma
 ## Headings 
 
 Here is a [page with headings](https://bigdata-mindstorms.github.io/jekyll-playground/public/ontouchstart/2016/04/19/headings.html).
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Headings</title>
+  </head>
+  <body>
+
+      <h1>Apple</h1>
+
+      <h1>Banana</h1>
+
+      <h1>Cherry</h1>
+
+  </body>
+</html>
+```
+the source is [here](headings.html). Notice the use of [liquid template engine](https://jekyllrb.com/docs/frontmatter/#custom-variables) [for loops](https://github.com/shopify/liquid/wiki/liquid-for-designers#for-loops).
+
