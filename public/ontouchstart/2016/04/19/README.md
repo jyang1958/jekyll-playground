@@ -72,11 +72,11 @@ Here is a [blank page](https://bigdata-mindstorms.github.io/jekyll-playground/pu
 <html>
   <head>
   
-    <meta  charset= utf-8 >
+    <meta  charset="utf-8" >
   
-    <meta  http-equiv= X-UA-Compatible  content= IE=edge >
+    <meta  http-equiv="X-UA-Compatible"  content="IE=edge" >
   
-    <meta  name= viewport  content= width=device-width, initial-scale=1 >
+    <meta  name="viewport" content="width=device-width, initial-scale=1" >
   
   </head>
   <body>
@@ -87,6 +87,6 @@ the source is [here](meta.html). Notice the use of double [for loops](https://gi
 
 ```
 {% for line in page.meta %}
-  <meta {% for item in line %} {{ item[0] }}= {{ item[1] }} {% endfor %}>
+  <meta {% for item in line %} {{ item[0] }}="{{ item[1] }}" {% endfor %}>
 {% endfor %}
 ```
