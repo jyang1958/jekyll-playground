@@ -120,4 +120,56 @@ Desktop
 Mobile
 ![](headings_with_meta_mobile.png)
 
+### style
 
+[style.html](https://bigdata-mindstorms.github.io/jekyll-playground/public/ontouchstart/2016/04/19/style.html).
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+    
+      body {
+       
+         background : red; 
+       
+         color : white; 
+       >
+      }
+    
+    </style>
+  </head>
+  <body>
+    <h1>This should be white on red</h1>
+  </body>
+</html>
+```
+
+Here is the [source](style.html), notice the double for loop
+
+```
+---
+style :
+  body :
+    background : red
+    color : white
+---
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+    {% for selector in page.style %}
+      {{ selector[0] }} {
+       {% for css in selector[1] %}
+         {{ css[0] }} : {{ css[1] }}; 
+       {% endfor %}>
+      }
+    {% endfor %}
+    </style>
+  </head>
+  <body>
+    <h1>This should be white on red</h1>
+  </body>
+</html>
+```
