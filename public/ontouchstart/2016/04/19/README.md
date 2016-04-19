@@ -136,7 +136,7 @@ Mobile
          background : red; 
        
          color : white; 
-       >
+
       }
     
     </style>
@@ -166,7 +166,7 @@ style :
       {{ selector[0] }} {
        {% for css in selector[1] %}
          {{ css[0] }} : {{ css[1] }}; 
-       {% endfor %}>
+       {% endfor %}
       }
     {% endfor %}
     </style>
