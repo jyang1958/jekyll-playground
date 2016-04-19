@@ -191,8 +191,135 @@ style :
 
 [headings_bootstrap_cdn.html](https://bigdata-mindstorms.github.io/jekyll-playground/public/ontouchstart/2016/04/19/headings_bootstrap_cdn.html)
 
+```html
+
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <meta charset="utf-8" >
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    
+    <title>Headings with Bootstrap CDN</title>
+    
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-hQpvDQiCJaD2H465dQfA717v7lu5qHWtDbWNPvaTJ0ID5xnPUlVXnKzq7b8YUkbN" crossorigin="anonymous" >
+    
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous" >
+    
+    
+    <script src="//code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous" ></script>
+    
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous" ></script>
+    
+    <style>
+    
+      h1 {
+       
+         text-align : center; 
+       
+      }
+    
+      h2 {
+       
+         margin : 10px; 
+       
+      }
+    
+    </style>
+  </head>
+  <body>
+    <div class="content">
+    <h1>Headings with Bootstrap CDN</h1>
+    </div>
+    <div class="content">
+    
+      <h2>Apple</h2>
+    
+      <h2>Banana</h2>
+    
+      <h2>Cherry</h2>
+    
+    </div>
+  </body>
+</html>
+```
+
 ![](headings_bootstrap_cdn_desktop.png)
 
 ![](headings_bootstrap_cdn_mobile.png)
 
 [source](headings_bootstrap_cdn.html)
+
+```html
+---
+title: Headings with Bootstrap CDN
+meta : # see https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
+  - charset : utf-8
+  - http-equiv : X-UA-Compatible
+    content : IE=edge
+  - name : viewport
+    content : width=device-width, initial-scale=1
+link :
+  - href : //maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css
+    rel : stylesheet 
+    integrity : sha384-hQpvDQiCJaD2H465dQfA717v7lu5qHWtDbWNPvaTJ0ID5xnPUlVXnKzq7b8YUkbN
+    crossorigin : anonymous
+  - href : //maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css
+    rel : stylesheet
+    integrity : sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7
+    crossorigin : anonymous
+script :
+  - src : //code.jquery.com/jquery-2.2.3.min.js
+    integrity : sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=
+    crossorigin : anonymous
+  - src : //maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js
+    integrity : sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS
+    crossorigin : anonymous
+style :
+  h1 :
+    text-align : center
+  h2 :
+    margin : 10px
+headings:
+  - Apple
+  - Banana
+  - Cherry
+---
+<!DOCTYPE html>
+<html>
+  <head>
+    {% for line in page.meta %}
+    <meta {% for item in line %}{{ item[0] }}="{{ item[1] }}" {% endfor %}>
+    {% endfor %}
+    <title>{{ page.title }}</title>
+    {% for line in page.link %}
+    <link {% for item in line %}{{ item[0] }}="{{ item[1] }}" {% endfor %}>
+    {% endfor %}
+    {% for line in page.script %}
+    <script {% for item in line %}{{ item[0] }}="{{ item[1] }}" {% endfor %}></script>
+    {% endfor %}
+    <style>
+    {% for selector in page.style %}
+      {{ selector[0] }} {
+       {% for css in selector[1] %}
+         {{ css[0] }} : {{ css[1] }}; 
+       {% endfor %}
+      }
+    {% endfor %}
+    </style>
+  </head>
+  <body>
+    <div class="content">
+    <h1>{{ page.title }}</h1>
+    </div>
+    <div class="content">
+    {% for heading in page.headings %}
+      <h2>{{ heading }}</h2>
+    {% endfor %}
+    </div>
+  </body>
+</html>
+```
