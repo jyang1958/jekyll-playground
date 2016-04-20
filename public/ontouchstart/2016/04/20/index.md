@@ -1,3 +1,10 @@
+---
+user : bigdata-mindstorms 
+repo : jekyll-playground/tree/gh-pages
+ribbon : '<img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" />'
+---
+<a href="https://github.com/{{ page.user }}/{{ page.repo }}/{{ page.url }}">{{ page.ribbon }}</a>
+
 # Single Page Prototypes with Jekyll Front Matter
 
 Continue from [2016/04/19](../19).
