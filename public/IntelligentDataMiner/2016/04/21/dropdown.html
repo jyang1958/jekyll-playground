@@ -1,0 +1,15 @@
+---
+layout: IntelligentDataMiner/2016/04/21/container-fluid
+data:
+  - text: A
+    url: '#'
+  - text: B
+    url: '#'
+  - text: C
+    url: '#'
+---
+<script src="dropdown.js"></script>
+<script>
+d3.select('div.container-fluid').style({background: 'yellow'})
+dropdown(d3.select('div'), {{page.data |jsonify }});
+</script>
