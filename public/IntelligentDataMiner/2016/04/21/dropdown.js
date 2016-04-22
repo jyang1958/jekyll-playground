@@ -29,5 +29,5 @@ function dropdown(container, data) {
     .append('li')
     .append('a')
     .attr('href', function (d) { return d.url; })
-    .html(function (d) { return d,text;} );
+    .html(function (d) { return d.text;} );
 }
