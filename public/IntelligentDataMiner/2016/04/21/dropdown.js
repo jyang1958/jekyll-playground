@@ -20,7 +20,7 @@ ul:
 ---
 function dropdown(container, data) {
   var div = container.append('div').attr({{ page.div.attr | jsonify}});
-  var button = div.append('button').attr({{ page.button.attr | jsonify }}).html("Dropdown");
+  var button = div.append('button').attr({{ page.button.attr | jsonify }}).html('Dropdown');
   var span = button.append('span').attr({{ page.span.attr | jsonify }});
   var ul = div.append('ul').attr({{ page.ul.attr | jsonify }});
   ul.selectAll('li')
