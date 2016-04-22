@@ -31,4 +31,3 @@ function dropdown(container, data) {
     .attr('href', function (d) { return d.url; })
     .html(function (d) { return d.text;} ); 
 }
-
