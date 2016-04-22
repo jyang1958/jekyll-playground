@@ -7,7 +7,7 @@ button:
     class: btn btn-default dropdown-toggle
     type: button
     id: dropdownMenu
-    data-toggele: dropdown
+    data-toggle: dropdown
     aria-haspopup: true
     aria-expanded: true
 span:
@@ -21,9 +21,9 @@ ul:
 function dropdown(container,data){
   var div= container.append('div').attr({{ page.div.attr | jsonify}});
   var button= div.append('button').attr({{ page.button.attr | jsonify}}).html("Dropdown");
-  var span = button.append('span')attr({{ page.span.attr |jsonify}});
+  var span = button.append('span').attr({{ page.span.attr |jsonify}});
   var ul = div.append('ul').attr({{ page.ul.attr | jsonify}});
-  ul.SelectAll('li')
+  ul.selectAll('li')
     .data(data)
     .enter
     .append('li')
