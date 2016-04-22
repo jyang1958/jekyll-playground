@@ -1,0 +1,33 @@
+---
+div:
+  attr:
+    class: dropdown
+button:
+  attr:
+    class: btn btn-default dropdown-toggle
+    type: button
+    id: dropdownMenu
+    data-toggele: dropdown
+    aria-haspopup: true
+    aria-expanded: true
+span:
+  attr:
+    class: caret
+ul:
+  attr:
+    class: dropdown-menu
+    aria-labelledby: dropdownMenu
+---
+function dropdown(container,data){
+  var div= container.append('div').attr({{ page.div.http | jsonify}});
+  var button= div.append('button').attr({{ page.button.http | jsonify}}).html("Dropdown");
+  var span = button.append('span')attr({{ page.span.http |jsonify}});
+  var ul = div.append('ul').attr({{ page.ul.http | jsonify}});
+  ul.SelectAll('li')
+    .data(data)
+    .enter
+    .append('li')
+    .append('a')
+    .attr('href', function(d) { return d.url;})
+    .html(function (d) { return d,text;});
+}
