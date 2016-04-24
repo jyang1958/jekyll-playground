@@ -12,4 +12,4 @@ Generated Pages
 * https://bigdata-mindstorms.github.io/jekyll-playground/public/IntelligentDataMiner/2016/04/21/index.html
 * https://bigdata-mindstorms.github.io/jekyll-playground/public/IntelligentDataMiner/2016/04/21/container.html
 * https://bigdata-mindstorms.github.io/jekyll-playground/public/IntelligentDataMiner/2016/04/21/dropdown.html#
-
+* https://bigdata-mindstorms.github.io/jekyll-playground/public/IntelligentDataMiner/2016/04/21/container-fluid.html
