@@ -16,7 +16,7 @@ span:
 ul:
   attr:
     class: dropdown-menu
-    aria-labelledby- dropdownMenu
+    aria-labelledby: dropdownMenu
 ---
 function dropdown(container, data) {
   var div = container.append('div').attr({{ page.div.attr | jsonify}});
