@@ -3,13 +3,13 @@ div:
   attr:
     class: dropdown
 button:
-attr:
-  class: btn btn-default dropdown-toggle
-  type: button
-  id: dropdownMenu
-  data-toggle: dropdown
-  aria-haspopup: true
-  aria-hasexpanded: true
+  attr:
+    class: btn btn-default dropdown-toggle
+    type: button
+    id: dropdownMenu
+    data-toggle: dropdown
+    aria-haspopup: true
+    aria-hasexpanded: true
 span:
   attr:
     class:caret
