@@ -19,15 +19,15 @@ ul:
     aria-labelledby- dropdownMenu
 ---
 function dropdown(container, data) {
-  var div = container.append('div').attr({{ page.div.attr | jsonify }})
+  var div = container.append('div').attr({{ page.div.attr | jsonify }});
   var button = div.append('button').attr({{ page.button.attr | jsonify }}).html('Dropdown');
-  var span = button.append('span').attr({{ page.button.span | jsonify }})
-  var ul = div.append('ul').attr({{ page.ul.attr | jsonify }})
+  var span = button.append('span').attr({{ page.span.attr | jsonify }});
+  var ul = div.append('ul').attr({{ page.ul.attr | jsonify }});
   ul.selectAll('li')
     .data(data)
     .enter()
     .append('li')
     .append('a')
     .attr('href', function (d) { return d.url; })
-    .html(function (d) {return d.text; });
+    .html(function (d) { return d.text; });
 }
