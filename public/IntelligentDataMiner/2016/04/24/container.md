@@ -5,7 +5,7 @@ layout: fancy
 {{ page }}
 </div>
 <script>
-var container= d3.select('div')
+var container = d3.select('div')
   .attr('class', 'container')
   .style({background: 'yellow'});
 </script>
