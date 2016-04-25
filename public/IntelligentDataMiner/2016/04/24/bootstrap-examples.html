@@ -17,7 +17,7 @@ examples:
   - offcanvas
   - signin
   - starter-template
-  - sticky-footer-template
+  - sticky-footer-navbar
   - sticky-footer
   - theme
   - tooltip-viewport
@@ -25,12 +25,12 @@ examples:
 <div class="container">
 <h1>{{page.title}}</h1>
 <a href="https://github.com/bigdata-mindstorms/jekyll-playground/blob/gh-pages/public/IntelligentDataMiner/2016/04/24/bootstrap-examples.html">
-GitHub Source
+GitHub source
 </a>
 </div>
 <script>
 examples= {{page.examples | jsonify }};
-d3.select('container')
+d3.select('div.container')
   .selectAll('div')
   .data(examples)
   .enter()
@@ -39,14 +39,14 @@ d3.select('container')
     var s = d3.select(this);
     s.append('h2')
      .append('a')
-     .attr(href, function(d) {
+     .attr('href', function(d) {
        return 'https://getbootstrap.com/examples/' +d;
-    })
+     })
     .html(function (d) {return.d};);
     s.append('a')
      .attr('href', function (d) {
-     return 'https://github.com/twbs/bootstrap/tree/gh-pages/examples/' + d;
-   })
-    .html('Github Source');
+       return 'https://github.com/twbs/bootstrap/tree/gh-pages/examples/' + d;
+     })
+    .html('GitHub source');
   });
 </script>
