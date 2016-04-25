@@ -29,7 +29,7 @@ GitHub source
 </a>
 </div>
 <script>
-examples= {{page.examples | jsonify }};
+examples = {{ page.examples | jsonify }};
 d3.select('div.container')
   .selectAll('div')
   .data(examples)
@@ -39,10 +39,10 @@ d3.select('div.container')
     var s = d3.select(this);
     s.append('h2')
      .append('a')
-     .attr('href', function(d) {
+     .attr('href', function (d) {
        return 'https://getbootstrap.com/examples/' +d;
      })
-    .html(function (d) {return.d;});
+    .html(function (d) { return.d;});
     s.append('a')
      .attr('href', function (d) {
        return 'https://github.com/twbs/bootstrap/tree/gh-pages/examples/' + d;
