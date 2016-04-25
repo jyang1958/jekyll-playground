@@ -7,6 +7,6 @@ layout: fancy
 <script>
 var container = d3.select('div')
   .attr('class', 'container-fluid')
-  .style({background, 'green'}))
+  .style({background, 'yellow'}))
 </script>
   
