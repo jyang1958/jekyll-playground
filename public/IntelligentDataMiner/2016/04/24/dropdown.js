@@ -9,7 +9,7 @@ button:
     id: dropdownMenu
     data-toggle: dropdown
     aria-haspopup: true
-    aria-hasexpanded: true
+    aria-expanded: true
 span:
   attr:
     class:caret
@@ -19,10 +19,10 @@ ul:
     aria-labelledby- dropdownMenu
 ---
 function dropdown(container, data) {
-  var div = container.append('div')({{ page.div.attr | jsonify }})
-  var button = div.append('button')({{ page.button.attr | jsonify }}).html('Dropdown');
-  var span = button.append('span')({{ page.button.span | jsonify }})
-  var ul = div.append('ul')({{ page.ul.attr | jsonify }})
+  var div = container.append('div').attr({{ page.div.attr | jsonify }})
+  var button = div.append('button').attr({{ page.button.attr | jsonify }}).html('Dropdown');
+  var span = button.append('span').attr({{ page.button.span | jsonify }})
+  var ul = div.append('ul').attr({{ page.ul.attr | jsonify }})
   ul.selectAll('li')
     .data(data)
     .enter()
