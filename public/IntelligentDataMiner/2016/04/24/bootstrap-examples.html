@@ -1,0 +1,45 @@
+---
+  layout: fancy
+  title: Bootstrap examples
+  examples:
+    - blog
+    - carousel
+    - cover
+    - dashboard
+    - grid
+    - jumbotron-narrow
+    - jumbotron
+    - justified-nav
+    - navbar-fixed-top
+    - navbar-static-top
+    - navbar
+    - non-responsive
+    - offcanvas
+    - signin
+    - starter-template
+    - sticky-footer-template
+    - sticky-footer
+    - theme
+    - tooltip-viewport
+---
+<div class="container">
+<h1>{{page.title}}</h1>
+<a href="https://github.com/bigdata-mindstorms/jekyll-playground/blob/gh-pages/public/IntelligentDataMiner/2016/04/24/bootstrap-examples.html">
+GitHub Source
+</a>
+</div>
+<script>
+examples= {{page.examples | jsonify }};
+d3.select('container')
+  .selectAll('div')
+  .each(function (d) {
+    var s = d3.select(this);
+  s.append('h2')
+    .append('a')
+    .attr(href, function(d) {
+     return 'https://getbootstrap.com/examples/' +d;
+    })
+    .html('Github Source');
+  });
+</script>
+   
