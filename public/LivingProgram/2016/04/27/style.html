@@ -1,0 +1,26 @@
+---
+title : LP's Black on Green
+style :
+  body :
+    background : green
+    color : black
+    font-size : 50px 
+---
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ page.title }}</title>
+    <style>
+    {% for selector in page.style %}
+      {{ selector[0] }} {
+       {% for css in selector[1] %}
+         {{ css[0] }} : {{ css[1] }}; 
+       {% endfor %}
+      }
+    {% endfor %}
+    </style>
+  </head>
+  <body>
+    <h1>{{ page.title }}</h1>
+  </body>
+</html>
