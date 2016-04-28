@@ -42,10 +42,10 @@ headings:
     {% endfor %}
     <title>{{ page.title }}</title>
     {% for line in page.link %}
-    <link {% for item in line %}{{ item[0] }}="{{ item[1] }}" {% endfor %}>
+      <link {% for item in line %}{{ item[0] }}="{{ item[1] }}" {% endfor %}>
     {% endfor %}
     {% for line in page.script %}
-    <script {% for item in line %}{{ item[0] }}="{{ item[1] }}" {% endfor %}></script>
+      <script {% for item in line %}{{ item[0] }}="{{ item[1] }}" {% endfor %}></script>
     {% endfor %}
     <style>
     {% for selector in page.style %}
