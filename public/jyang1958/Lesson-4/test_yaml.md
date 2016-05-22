@@ -1,22 +1,22 @@
 ## YAML: YAML Ain't Markup Language
 
-What It Is: YAML is a human friendly data serialization
+* What It Is: YAML is a human friendly data serialization
 
-YAML is a standard for all programming languages.
+* YAML is a standard for all programming languages.
 
-YAML Resources:
-* YAML 1.2 (3rd Edition): http://yaml.org/spec/1.2/spec.html
+#### YAML Resources:
+  * YAML 1.2 (3rd Edition): http://yaml.org/spec/1.2/spec.html
   
-* YAML 1.1 (2nd Edition): http://yaml.org/spec/1.1/
+  * YAML 1.1 (2nd Edition): http://yaml.org/spec/1.1/
   
-* YAML 1.0 (1st Edition): http://yaml.org/spec/1.0/
+  * YAML 1.0 (1st Edition): http://yaml.org/spec/1.0/
   
-* YAML Issues Page: https://github.com/yaml/yaml/issues
+  * YAML Issues Page: https://github.com/yaml/yaml/issues
   
-* YAML Mailing List: yaml-core@lists.sourceforge.net
+  * YAML Mailing List: yaml-core@lists.sourceforge.net
   
-* YAML IRC Channel: "#yaml on irc.freenode.net"
+  * YAML IRC Channel: "#yaml on irc.freenode.net"
   
-* YAML Cookbook (Ruby): http://yaml4r.sourceforge.net/cookbook/ (local)
+  * YAML Cookbook (Ruby): http://yaml4r.sourceforge.net/cookbook/ (local)
   
-* YAML Reference Parser: http://ben-kiki.org/ypaste/
+  * YAML Reference Parser: http://ben-kiki.org/ypaste/
