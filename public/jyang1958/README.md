@@ -10,7 +10,7 @@ https://bigdata-mindstorms.github.io/jekyll-playground/public/jyang1858/md.md
 
 Markdown messed up
 
-https://bigdata-mindstorms.github.io/jekyll-playground/public/jyang1958/html.md
+https://bigdata-mindstorms.github.io/jekyll-playground/public/jyang1958/html.html
 
 ### Links for [Lesson 3](https://github.com/bigdata-mindstorms/jekyll-playground/tree/gh-pages/lessons/03)
 
