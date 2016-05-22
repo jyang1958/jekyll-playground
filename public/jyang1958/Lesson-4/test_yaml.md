@@ -1,7 +1,8 @@
-YAML: YAML Ain't Markup Language
+## YAML: YAML Ain't Markup Language
 
 What It Is: YAML is a human friendly data serialization
-  standard for all programming languages.
+
+YAML is a standard for all programming languages.
 
 YAML Resources:
 * YAML 1.2 (3rd Edition): http://yaml.org/spec/1.2/spec.html
